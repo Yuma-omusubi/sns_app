@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   
   get 'posts/new' , to: 'posts#new' , as: 'new_post'
   
+  get 'posts/index' , to: 'posts#index'
+  
   get '/topics/new', to: 'topics#new'
   
   get '/topics/edit', to: 'topics#edit'
