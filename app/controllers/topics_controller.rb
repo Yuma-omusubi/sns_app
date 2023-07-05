@@ -5,7 +5,7 @@ class TopicsController < ApplicationController
   end
   
   def create
-    redirect_to 'topics/new'
+    redirect_to 'topics/edit'
   end
   
   def edit 
@@ -15,5 +15,7 @@ class TopicsController < ApplicationController
   def update
     redirect_to 'topocs/edit'
   end
+  
+  
   
 end
