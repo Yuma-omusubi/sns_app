@@ -13,7 +13,7 @@ class TopicsController < ApplicationController
   end
   
   def update
-    redirect_to 'topocs/edit'
+    redirect_to 'topics/edit'
   end
   
   
