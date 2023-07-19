@@ -18,5 +18,7 @@ Rails.application.routes.draw do
   
   post '/topics/new' , to: 'topics#create'
   
+  post '/topics/edit' , to: 'topics#update'
+  
   
 end
