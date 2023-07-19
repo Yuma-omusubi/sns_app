@@ -20,5 +20,6 @@ Rails.application.routes.draw do
   
   post '/topics/edit' , to: 'topics#update'
   
+  # root "articles#index"
   
 end
